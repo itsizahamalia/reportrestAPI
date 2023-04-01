@@ -20,7 +20,6 @@ export const options = {
 };
 
 export default function() {
-    //http.get('https://reqres.in')
     const res = http.post('https://reqres.in/api/users');
     const payload = JSON.stringify({
         name : 'morpheus',
